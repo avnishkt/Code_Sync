@@ -1,5 +1,6 @@
 const mongoose =require('mongoose');
 const dotenv =require('dotenv');
+// const chalk = require('chalk');
 dotenv.config();
 const connectDataBase = async () => {
     try {
@@ -7,6 +8,7 @@ const connectDataBase = async () => {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       });
+    //  console.log(chalk.green('Db Conected'));
       console.log(`MongoDB Connected: ${conn.connection.host}`);
     } catch (error) {
       console.error("MongoDB connection error:", error);
