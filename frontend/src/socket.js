@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client'
-
+import BASE_URL from './config';
 export const initSocket = () => {
     const options = {
         'force new connection': true,
@@ -8,5 +8,5 @@ export const initSocket = () => {
         transports: ['websocket']
     } 
 
-    return io(import.meta.env.VITE_BACKEND_URL, options)
+    return io(BASE_URL, options)
 }

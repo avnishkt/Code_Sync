@@ -12,7 +12,7 @@ const roomSchema = new mongoose.Schema({
   users: [
     {
       type: mongoose.Schema.Types.ObjectID,
-      ref: 'user',
+      ref: 'coder',
     },
   ],
 });
