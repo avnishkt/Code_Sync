@@ -72,8 +72,7 @@ Code_Syn is a collaborative coding environment designed to simplify and enhance 
 4. Use the chat feature to communicate instantly.
 
 ## Technologies Used
-![Screenshot 2025-01-24 004322](https://github.com/user-attachments/assets/48a5d9ab-9c59-459d-a95e-db58d1c0896a)
-![Screenshot 2025-01-24 004400](https://github.com/user-attachments/assets/bb1946c4-2828-49cf-9f11-9a1f21ab0393)
+
 
 ### Frontend:
 - **React.js**
